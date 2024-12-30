@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const HeroSection = () => {
@@ -56,7 +57,7 @@ const HeroSection = () => {
         </section>
         {/* right */}
         <section>
-          <img src="/images/heroImg.png" alt="heroImg" />
+          <Image src="/images/heroImg.png" alt="heroImg" />
         </section>
       </div>
     </div>

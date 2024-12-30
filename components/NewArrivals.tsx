@@ -1,5 +1,6 @@
 "use client";
 import { useData } from "@/contexts/DataContexts";
+import Image from "next/image";
 import React from "react";
 
 const NewArrivals = () => {
@@ -18,10 +19,10 @@ const NewArrivals = () => {
                   key={el.id}
                   className="flex flex-col w-[250px] text-black gap-3 flex-shrink-0"
                 >
-                  <img src={el.img} alt={el.name} className="w-full" />
+                  <Image src={el.img} alt={el.name} className="w-full" />
                   <h4 className="text-sm font-semibold">{el.name}</h4>
                   <section className="flex items-center gap-2">
-                    <img className="w-12" src={el.ratingStar} alt="star" />
+                    <Image className="w-12" src={el.ratingStar} alt="star" />
                     <p className="text-xs font-light opacity-80">{el.rating}</p>
                   </section>
                   <section className="flex items-center gap-3">

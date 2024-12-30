@@ -8,6 +8,7 @@ import { RiAccountCircleLine } from "react-icons/ri";
 import { IoMenu } from "react-icons/io5";
 import { IoSearchSharp } from "react-icons/io5";
 import { useData } from "@/contexts/DataContexts";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isFocused, setIsFocused] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
       {/* wrapper */}
       <div className="w-[90%] flex items-center justify-between">
         <IoMenu onClick={() => setMenuOpen(!menuOpen)} className="text-2xl cursor-pointer xs:block md:hidden" />
-        <img className="w-28" src="/images/shopco-logo.png" alt="logo" />
+        <Image className="w-28" src="/images/shopco-logo.png" alt="logo" />
         <ul className="items-center gap-5 text-sm font-extralight
         xs:hidden
         md:flex
