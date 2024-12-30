@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "heading" : "new-arrivals",
+        "img": "product-images/T-shirt-with-Tape-Details.png",
+        "name": "T-shirt with Tape Details",
+        "ratingStar": "images/4-stars.png",
+        "rating": "4.5/5",
+        "price": "$120"
+    },
+    {
+        "id": 2,
+        "heading" : "new-arrivals",
+        "img": "product-images/Skinny-Fit-Jeans.png",
+        "name": "Skinny Fit Jeans",
+        "ratingStar": "images/3-stars.png",
+        "rating": "3.5/5",
+        "price": "$240",
+        "strikePrice": "$260",
+        "discount": "-20%",
+        "offer": true
+    },
+    {
+        "id": 3,
+        "heading" : "new-arrivals",
+        "img": "product-images/Checkered-Shirt.png",
+        "name": "Checkered Shirt",
+        "ratingStar": "images/4-stars.png",
+        "rating": "4.5/5",
+        "price": "$180"
+    },
+    {
+        "id": 4,
+        "heading" : "new-arrivals",
+        "img": "product-images/Sleeve-Stripped-T-shirt.png",
+        "name": "Sleeve Stripped T-shirt",
+        "ratingStar": "images/4-stars.png",
+        "rating": "4.5/5",
+        "price": "$130",
+        "strikePrice": "$660",
+        "discount": "-20%",
+        "offer": true
+    },
+    {
+        "id": 5,
+        "heading" : "top-selling",
+        "img": "product-images/Vertical-Striped-Shirt.png",
+        "name": "Vertical Striped Shirt",
+        "ratingStar": "images/5-stars.png",
+        "rating": "5.0/5",
+        "price": "$212",
+        "strikePrice": "$232",
+        "discount": "-20%",
+        "offer": true
+    },
+    {
+        "id": 6,
+        "heading" : "top-selling",
+        "img": "product-images/Courage-Graphic-T-shirt.png",
+        "name": "Courage Graphic T-shirt",
+        "ratingStar": "images/4-stars.png",
+        "rating": "4.0/5",
+        "price": "$145"
+    },
+    {
+        "id": 7,
+        "heading" : "top-selling",
+        "img": "product-images/Loose-Fit-Bermuda-Shorts.png",
+        "name": "Loose Fit Bermuda Shorts",
+        "ratingStar": "images/3-stars.png",
+        "rating": "3.0/5",
+        "price": "$80"
+    },
+    {
+        "id": 8,
+        "heading" : "top-selling",
+        "img": "product-images/Faded-Skinny-Jeans.png",
+        "name": "Faded Skinny Jeans",
+        "ratingStar": "images/4-stars.png",
+        "rating": "4.0/5",
+        "price": "$210"
+    }  
+
+]
